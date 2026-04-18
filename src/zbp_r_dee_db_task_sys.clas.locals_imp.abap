@@ -68,7 +68,7 @@ METHOD validateDates.
         %tky = task-%tky
         %msg = new_message(
           id = 'ZMSG'
-          number = '001'
+          number = '003'
           severity = if_abap_behv_message=>severity-error
           v1 = 'End Date cannot be less than Start Date'
         )
